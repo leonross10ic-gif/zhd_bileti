@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    top: 0px;
+
+    z-index: 99;
+
+    background: linear-gradient(90deg, #FF2600 0%, #FFBD60 100%);
+}
+
+.train-container {
+    position: relative;
+    margin-top: 65px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.train {
+    position: absolute;
+    width: 100%;
+    min-width: 1500px;
+    top: calc(63%);
+    transform: translateY(-63%);
+}
+
